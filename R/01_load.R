@@ -1,5 +1,9 @@
-library(zorgmijding)
 
+# Load libraries ----------------------------------------------------------
+
+
+
+library(zorgmijding)
 library(tidyverse)
 library(colorspace)
 library(strucchange)
@@ -47,6 +51,8 @@ local({
 }, envir = data)
 
 
+ams <- data$amsterdam$full$n_visits_w_total_40
+utr <- data$utrecht$full$n_visits_w_total_40
+rot <- data$rotterdam$full$n_visits_w_total_40
 
-    
     
